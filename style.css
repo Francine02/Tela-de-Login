@@ -18,6 +18,7 @@ body {
     width: 600px;
     margin: auto;
     margin-top: 10%;
+    box-shadow: rgba(255, 255, 255, 0.121) 0px 20px 30px -10px;
 }
 
 h1 {
@@ -46,14 +47,44 @@ input:focus{
     background: rgba(255, 255, 255, 0.132);
 }
 
-.checkbox-password {
-    color: white;
+.links {
+    justify-content: space-between;
     display: flex;
-    float: left;
-    
+    padding: 5px 15px 30px 5px;
 }
 
 a {
-    
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 18px;
+    text-decoration: none;
 }
+
+a:hover {
+    color: rgba(255, 255, 255, 0.565);
+}
+
+a:active {
+    color: rgb(49, 49, 49);
+}
+
+button {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    text-align: center;
+    font-weight: 900;
+    font-size: 17px;
+    border-radius: 12px;
+    padding: 10px 23px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.897);
+    color: rgb(0, 0, 0);
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.783);
+    cursor: pointer;
+}
+
 
